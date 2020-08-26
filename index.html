@@ -1,16 +1,216 @@
-<!doctype html>
-
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>AAAI 2021 Workshop: Towards Robust, Secure and Efficient Machine Learning (RSEML) </title>
 
-  <title>Towards Robust, Secure and Efficient Machine Learning (RSEML 2021)</title>
-  <meta name="description" content="The HTML5 Herald">
-  <meta name="author" content="SitePoint">
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
 </head>
 
 <body>
-    Working in progress.
+
+<div class="container">
+    <table border="0" align="center">
+        <tr>
+            <td width="700" align="center" valign="middle"><h3>AAAI 2021 Workshop</h3>
+                <span class="title"><strong>Towards Robust, Secure and Efficient Machine Learning</strong></span></td>
+        </tr>
+        <tr>
+        <td colspan="3" align="center"><h3>Online<br>February 2 - 9, 2021<br><br>
+        </tr>
+    </table>
+</div>
+
+</br>
+
+<div class="container">
+    <h2>Overview</h2>
+    <div class="overview">
+      <p>Machine learning technology has been improving with every passing day and has been extensively applied to nearly 
+        every corner of the society that offers substantial benefits to our daily lives. However, machine learning models 
+        face various threats. For example, it is known that machine learning models are vulnerable to adversarial samples. 
+        The existence of adversarial examples reveals that current machine learning models are vulnerable and can be easily 
+        fooled, leading to serious privacy and security concerns in machine learning systems such as autonomous driving vehicles 
+        or face recognition systems. More recently, due to both data privacy requirements as specified in the European Union’s 
+        General Data Protection Regulation (GDPR) and the limitations of computation power, the training process of machine learning 
+        models has extended from centralized to decentralized (i.e. distributed or federated learning) where the model will suffer even 
+        more threats. For example, in a federated learning setting, every client can perform various attacks such as back-door attack on 
+        the global model as clients have direct access to the global model. </p>
+
+      <p>At the same time, computation efficiency is a big concern for modern deep learning, both inference and training. 
+      For inference, people prefer inference on edge devices due to better privacy, but edge devices have very limited 
+      computational resource. For training, gradient or weight exchange is necessary for scalable training, but how to 
+      prevent leaking in-formation during this information exchange is a critical issue. Furthermore, models that are robust 
+      to adversarial attacks usually has much larger number of parameters and require orders of magnitude more computation FLOPs than normal networks. </p>
+      
+      <p>This one-day workshop intends to bring experts from machine learning, security communities, and federated learning together to 
+        work more closely in addressing the posed concerns. Specifically, we seek to study threats and defenses to machine learning not 
+        only in a single node setting but also in a distributed setting, as well as potential defense strategies in both settings. 
+        In summary, we seek solutions to achieve a wholistic solution for robust, secure and efficient machine learning. </p>
+      
+    </div>
+</div>
+
+</br>
+
+</br>
+<div class="container">
+    <h2>Topic of Interests</h2>
+    <div class="topicinterests">
+      Topics including (but not limit to): 
+      <ul>
+        <li>Adversarial learning, data poisoning, adversarial examples, adversarial robustness, and black box attacks. </li>
+        <li>Improving model robustness against various attacks such as evasion, data poisoning, model inversion or backdoor attacks. </li>
+        <li>Theoretical contributions of adversarial machine learning. </li>
+        <li>Interpretable machine learning through adversarial learning. </li>
+        <li>Differential privacy in distributed machine learning. </li>
+        <li>Privacy concerns in distributed machine learning. </li>
+        <li>Adversarial distributed machine learning. </li>
+        <li>Adversarial transferability in distributed machine learning. </li>
+        <li>Federated learning and distributed privacy preserving algorithms. </li>
+        <li>Improving model performance of general tasks via adversarial machine learning (e.g., image classification, speech recognition) </li>
+        <li>Efficiency improvement in distributed machine learning. </li>
+        <li>Trade-off between privacy and efficiency. </li>
+      </ul>
+    </div>
+</div>
+
+</br>
+
+<div class="container">
+  <h2>Important Dates</h2>
+  <div class="importantdate">
+    <p>Submission Due &nbsp <strong>Friday, November 9, 2020</strong></p>
+    <p>Notifications Due &nbsp <strong>Monday, November 30, 2020</strong></p>
+  </div>
+</div>
+
+</br>
+
+<div class="container">
+    <h2>Organizing Committee</h2>
+    <div class="oc">
+      <p><strong>General Chair</strong></p>
+      <ul>
+        <li>Qiang Yang, Hong Kong University of Science and Technology</li>
+      </ul>
+      <p></p>
+      <p><strong>Program Chair</strong></p>
+      <ul>
+        <li>Dawn Song, University of California, Berkeley</li>
+        <li>Song Han, Massachusetts Institute of Technology</li>
+        <li>Han Yu, Nanyang Technological University</li>
+        <li>Lixin Fan, WeBank.</li>
+      </ul>
+    </div>
+</div>
+
+</br>
+
+<!-- <div class="container">
+    <h2>Organizing Committee</h2>
+    <div>
+        <div class="instructor">
+            <a href="https://cihangxie.github.io/">
+                <div class="instructorphoto"><img src="figures/cihangxie.jpg"></div>
+                <div>Cihang Xie<br>Johns Hopkins University</div>
+            </a>
+        </div>
+
+        <div class="instructor">
+            <a href="https://jungyhuk.github.io/">
+                <div class="instructorphoto"><img src="figures/xinyunchen.jpg"></div>
+                <div>Xinyun Chen<br>UC Berkeley</div>
+            </a>
+        </div>
+
+        <div class="instructor">
+            <a href="http://songbai.site/">
+                <div class="instructorphoto"><img src="figures/songbai.png"></div>
+                <div>Song Bai<br>University of Oxford</div>
+            </a>
+        </div>
+
+        <div class="instructor">
+            <a href="https://aisecure.github.io/">
+                <div class="instructorphoto"><img src="figures/boli.jpg"></div>
+                <div>Bo Li<br>UIUC</div>
+            </a>
+        </div>
+
+        <div class="instructor">
+            <a href="http://kaiminghe.com/">
+                <div class="instructorphoto"><img src="figures/kaiminghe.jpg"></div>
+                <div>Kaiming He<br>Facebook AI Research</div>
+            </a>
+        </div>
+    </div>
+
+    <p></p>
+    <div>
+        <div class="instructor">
+            <a href="https://profiles.stanford.edu/fei-fei-li">
+                <div class="instructorphoto"><img src="figures/feifeili.jpg"></div>
+                <div>Fei-Fei Li<br>Stanford University</div>
+            </a>
+        </div>
+
+        <div class="instructor">
+            <a href="https://www.vision.ee.ethz.ch/en/members/detail/1/#">
+                <div class="instructorphoto"><img src="figures/lucvangool.jpg"></div>
+                <div>Luc Van Gool<br>ETH Zurich</div>
+            </a>
+        </div>
+
+        <div class="instructor">
+            <a href="http://www.robots.ox.ac.uk/~phst/">
+                <div class="instructorphoto"><img src="figures/philiptorr.jpg"></div>
+                <div>Philip H.S. Torr<br>University of Oxford</div>
+            </a>
+        </div>
+
+        <div class="instructor">
+            <a href="https://www2.eecs.berkeley.edu/Faculty/Homepages/song.html">
+                <div class="instructorphoto"><img src="figures/dawnsong.jpg"></div>
+                <div>Dawn Song<br>UC Berkeley</div>
+            </a>
+        </div>
+
+        <div class="instructor">
+            <a href="http://www.cs.jhu.edu/~ayuille/index.html">
+                <div class="instructorphoto"><img src="figures/alanyuille.png"></div>
+                <div>Alan Yuille<br>Johns Hopkins University</div>
+            </a>
+        </div>
+    </div>
+</div>
+</br> -->
+
+<!-- <div class="container">
+    <h2>Program Committee</h2>
+    <div class="pcs-row pcs">
+        <div class="pcs-column">
+            <ul>
+            </ul>
+        </div>
+        <div class="pcs-column">
+            <ul>
+            </ul>
+        </div>
+    </div>
+</div> -->
+
+<!-- </br> -->
+
+<div class="containersmall">
+    <p>Please contact <a href="mailto:jinhewu@webank.com">Kam Woh Ng</a> if you have questions. The webpage template
+        is by the courtesy of <a href="https://interpretablevision.github.io/">ICCV 2019 Tutorial on Interpretable
+            Machine Learning for Computer Vision</a>.</p>
+</div>
+
+<!--<p align="center" class="acknowledgement">Last updated: Jan. 6, 2017</p>-->
 </body>
 </html>
