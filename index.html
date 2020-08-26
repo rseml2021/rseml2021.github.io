@@ -13,9 +13,10 @@
 <body>
 
 <div class="container">
+    <p><img src="https://aaai.org/Conferences/AAAI-21/wp-content/uploads/2017/09/banner_virtual.png" width="1000" align="middle" /></p>
     <table border="0" align="center">
         <tr>
-            <td width="700" align="center" valign="middle"><h3>AAAI 2021 Workshop</h3>
+            <td width="1000" align="center" valign="middle"><h2>AAAI 2021 Workshop</h2>
                 <span class="title"><strong>Towards Robust, Secure and Efficient Machine Learning</strong></span></td>
         </tr>
         <tr>
@@ -29,28 +30,30 @@
 <div class="container">
     <h2>Overview</h2>
     <div class="overview">
-      <p>Machine learning technology has been improving with every passing day and has been extensively applied to nearly 
-        every corner of the society that offers substantial benefits to our daily lives. However, machine learning models 
-        face various threats. For example, it is known that machine learning models are vulnerable to adversarial samples. 
-        The existence of adversarial examples reveals that current machine learning models are vulnerable and can be easily 
-        fooled, leading to serious privacy and security concerns in machine learning systems such as autonomous driving vehicles 
-        or face recognition systems. More recently, due to both data privacy requirements as specified in the European Union’s 
-        General Data Protection Regulation (GDPR) and the limitations of computation power, the training process of machine learning 
-        models has extended from centralized to decentralized (i.e. distributed or federated learning) where the model will suffer even 
-        more threats. For example, in a federated learning setting, every client can perform various attacks such as back-door attack on 
-        the global model as clients have direct access to the global model. </p>
+        <p>Machine learning technology has been improving with every passing day and has been extensively applied to nearly every
+corner of the society that offers substantial benefits to our daily lives. However, machine learning models face various
+threats. For example, it is known that machine learning models are vulnerable to adversarial samples. The existence of
+adversarial examples reveals that current machine learning models are vulnerable and can be easily fooled, leading to serious
+security concerns in machine learning systems such as autonomous driving vehicles or face recognition systems.</p>
 
-      <p>At the same time, computation efficiency is a big concern for modern deep learning, both inference and training. 
-      For inference, people prefer inference on edge devices due to better privacy, but edge devices have very limited 
-      computational resource. For training, gradient or weight exchange is necessary for scalable training, but how to 
-      prevent leaking in-formation during this information exchange is a critical issue. Furthermore, models that are robust 
-      to adversarial attacks usually has much larger number of parameters and require orders of magnitude more computation FLOPs than normal networks. </p>
-      
-      <p>This one-day workshop intends to bring experts from machine learning, security communities, and federated learning together to 
-        work more closely in addressing the posed concerns. Specifically, we seek to study threats and defenses to machine learning not 
-        only in a single node setting but also in a distributed setting, as well as potential defense strategies in both settings. 
-        In summary, we seek solutions to achieve a wholistic solution for robust, secure and efficient machine learning. </p>
-      
+        <p>More recently, due to both data privacy requirements as specified in the European Union’s General Data Protection
+Regulation (GDPR), and the limitations of computation power, the training process of machine learning models has extended
+from centralized to decentralized (i.e. distributed or federated learning) where the model will suffer from even more threats.
+For example, in a federated learning setting, every client can perform various attacks such as backdoor attacks on the global
+model as clients have direct access to the global model. How to prevent privacy leaking during information exchange of a
+decentralized training method is also a critical issue.</p>
+
+        <p>At the same time, computation efficiency is a big concern for modern deep learning, both inference and training. For
+inference, people prefer inference on edge devices due to better privacy, but edge devices have very limited computational
+resource. For training, gradient or weight exchange is necessary for decentralized training, but such exchange requires
+communication, which may be slow. Furthermore, models that are robust to adversarial attacks usually require longer
+training time and orders of magnitude more computation FLOPs than normal networks.</p>
+
+    <p>This one-day workshop intends to bring experts from machine learning, security communities, and federated learning
+together to work more closely in addressing the posed concerns. Specifically, we seek to study threats and defenses to
+machine learning not only in a single node setting but also in a distributed setting, as well as potential defense strategies in
+both settings. In summary, we seek solutions to achieve a wholistic solution for robust, secure and efficient machine learning.</p>
+
     </div>
 </div>
 
@@ -61,7 +64,7 @@
     <h2>Topic of Interests</h2>
     <div class="topicinterests">
       Topics including (but not limit to): 
-      <ul>
+      <!-- <ul>
         <li>Adversarial learning, data poisoning, adversarial examples, adversarial robustness, and black box attacks. </li>
         <li>Improving model robustness against various attacks such as evasion, data poisoning, model inversion or backdoor attacks. </li>
         <li>Theoretical contributions of adversarial machine learning. </li>
@@ -74,6 +77,26 @@
         <li>Improving model performance of general tasks via adversarial machine learning (e.g., image classification, speech recognition) </li>
         <li>Efficiency improvement in distributed machine learning. </li>
         <li>Trade-off between privacy and efficiency. </li>
+      </ul> -->
+      <p>Robustness</p>
+      <ul>
+            <li>Theoretical contributions of adversarial machine
+            learning.</li>
+            <li>Training data poisoning, adversarial learning, and
+                adversarial attacks and defenses.</li>
+      </ul>
+      <p>Security</p>
+      <ul>
+            <li>Privacy-preserving machine learning.</li>
+            <li>Privacy attacks such as membership inference, and
+                model inversion.</li>
+      </ul>
+      <p>Efficiency</p>
+      <ul>
+            <li>Model compression and efficiency improvement in
+                both training and inference.</li>
+            <li>Efficiency improvement of information exchange in
+                distributed training.</li>
       </ul>
     </div>
 </div>
@@ -105,6 +128,12 @@
         <li>Han Yu, Nanyang Technological University</li>
         <li>Lixin Fan, WeBank.</li>
       </ul>
+        <p><strong>Industrial Chairs</strong></p>
+        <ul>
+        <li>Ce Ju, WeBank</li>
+        <li>Tianyu Zhang, WeBank</li>
+        <li>Kam Woh Ng, WeBank</li>
+        </ul>
     </div>
 </div>
 
