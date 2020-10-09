@@ -72,6 +72,10 @@ a:hover {
     text-align: left;
 }
 
+.smallword {
+	font-size: small;
+}
+
 .importantdate {
     text-align: left;
 }
