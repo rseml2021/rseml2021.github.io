@@ -218,6 +218,13 @@ table.psets {
   margin-bottom: 10px;
 }
 
+.logophoto img {
+	width: 120px;
+	align-content: center;
+	border-radius: 0px;
+	margin-bottom: 10px;
+  }
+
 .instructorphotosmall img {
   width: 60px;
   border-radius: 60px;
@@ -230,3 +237,10 @@ table.psets {
   text-align: center;
   margin-right: 10px;
 }
+
+.logo {
+	display: inline-block;
+	text-align: center;
+	margin-right: 10px;
+	height: auto;
+  }
